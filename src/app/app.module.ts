@@ -7,10 +7,13 @@ import { HelloComponent } from "./hello.component";
 import { StudentsComponent } from "./students/students.component";
 import { RouterModule } from "@angular/router";
 import { AppRoutes } from "./app.routing";
+import { CourselistComponent } from './courselist/courselist.component';
+import { CoursedetailsComponent } from './coursedetails/coursedetails.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(AppRoutes)],
-  declarations: [AppComponent, HelloComponent, StudentsComponent],
+  declarations: [AppComponent, HelloComponent, StudentsComponent, CourselistComponent, CoursedetailsComponent, PagenotfoundComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
