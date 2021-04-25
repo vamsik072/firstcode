@@ -1,5 +1,3 @@
-import { Route } from "@angular/router";
+import { Routes } from "@angular/router";
 
-const appRoute: Route = [
-  
-]
+export const AppRoutes: Routes = [];
